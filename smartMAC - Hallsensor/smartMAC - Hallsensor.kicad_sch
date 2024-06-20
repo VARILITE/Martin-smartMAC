@@ -3,7 +3,13 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "ee2b3e24-eba4-48ed-9c2e-7f81d6746570")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "smartMAC - Hallsensor (62090177-A)")
+		(date "2024-06-19")
+		(rev "1")
+		(company "Samtronix")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
@@ -1142,6 +1148,48 @@
 		)
 		(uuid "fe3cb8b1-d92c-4727-9bdb-c334880cdf0c")
 	)
+	(text_box "Color	Purpose		On		Off"
+		(exclude_from_sim no)
+		(at 86.868 132.334 0)
+		(size 83.82 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "0172288c-2c81-4afe-ae27-559daaa1ae8c")
+	)
+	(text_box "Green	Power		+VDD	0V	\nRed		Detect		Yes		No"
+		(exclude_from_sim no)
+		(at 86.868 139.954 0)
+		(size 83.82 11.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "b039a327-079f-4adb-88b2-609a2fa79fda")
+	)
 	(text "Red"
 		(exclude_from_sim no)
 		(at 128.016 101.6 0)
@@ -1161,6 +1209,16 @@
 			)
 		)
 		(uuid "8e390e72-15a7-46c7-a787-6cf416c99ede")
+	)
+	(text "LED Truth Table"
+		(exclude_from_sim no)
+		(at 125.73 128.27 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "e50cbee3-a06c-461d-b66a-1308d3cc532b")
 	)
 	(symbol
 		(lib_id "power:GND")
